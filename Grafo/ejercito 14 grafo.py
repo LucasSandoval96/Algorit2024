@@ -57,6 +57,8 @@ grafo.show_graph()
 separar()
 
 # c. obtener el árbol de expansión mínima y determine cuantos metros de cables se necesitan para conectar todos los ambientes;
+
+
 grafo.mark_as_not_visited()
 print ("soy el kruskal: ")
 arbol = grafo.kruskal("cocina")
